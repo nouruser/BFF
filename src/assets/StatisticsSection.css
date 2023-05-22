@@ -1,0 +1,82 @@
+.statistics-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 850px;
+  width: 100%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  padding-bottom: 30px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.statistics-container h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
+  color: #164267;
+  font-weight: bold;
+}
+
+.picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.picture {
+  width: 100%;
+  height: auto;
+}
+
+.statistics-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  
+}
+
+.statistics-item {
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  justify-content: space-between;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.statistics-number {
+  font-size: 40px;
+  font-weight: bold;
+  animation: countUp 1s ease-in-out;
+  color: #000000;
+}
+
+.statistics-label {
+  font-size: 25px;
+  color: #223b52;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

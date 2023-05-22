@@ -1,0 +1,66 @@
+.sign-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    /* background-color: #D5DBE6; */
+    background-color: slategrey;
+  }
+  
+  .sign-in-form {
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .sign-in-form h2 {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #041320;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #041C29;
+  }
+  
+  .form-group input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    font-size: 16px;
+  }
+  
+  button[type='submit'] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #164267;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #5374A8;
+  }
+  
